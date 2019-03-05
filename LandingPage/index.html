@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Courgette|Poppins|Staatliches" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style/slider.css">
+  <link rel="stylesheet" href="style/design-elements.css">
+
+  <title>Document</title>
+</head>
+<body>
+  <!-- header -->
+  <header class='header'>
+
+      <div class='header__menu'>
+          <div class='header__menu__logo'>LoGo</div>
+          
+            <label  class='bars' for='bars'>
+              <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" id='bars'/>
+
+          <nav class='header__menu__navbar'>
+            <a href='#about' class=' header__menu__navbar__item'>ABOUT</a>
+            <a href='#work' class='button header__menu__navbar__item'>WORKS</a>
+            <a href='#tariffs' class='button header__menu__navbar__item'>PRICING</a>
+            <a href='#contact' class='button header__menu__navbar__item'>CONTACT</a>
+          </nav>
+      </div>
+
+    <div class='header__container'>
+      <h1 class='header__container__title title'>Start something that matters</h1>
+      <button class='button header__container__button'>Start Today</button>
+    </div>
+
+  </header>
+  <!-- header -->
+
+  <main class='main-content'>
+    <!-- about section -->
+    <section class='about' id='about'>
+
+      <h1 class='about__title title'>ABOUT US</h1>
+
+      <div class='about__offer'>
+        <div class='about__offer__container moveRight'>
+          <i class="fas fa-desktop desktop"></i>
+          <h2 class='about__offer__container__title'>Develope</h2>
+          <p class='about__offer__container__text'>We Know how to do the job swiftly and imprccable</p>
+        </div>
+        <div class='about__offer__container moveLeft'>
+          <i class="fas fa-heart heart"></i>
+          <h2 class='about__offer__container__title'>Passion</h2>
+          <p class='about__offer__container__text'>99% of our customers were satisfied with our work</p>
+        </div>
+        <div class='about__offer__container moveRight'>
+          <i class="fas fa-gem gem"></i>
+          <h2 class='about__offer__container__title'>Design</h2>
+          <p class='about__offer__container__text'>Elegant solution grounded in clear & simple design</p>
+        </div>
+        <div class='about__offer__container moveLeft'>
+          <i class="fas fa-cog cog"></i>
+          <h2 class='about__offer__container__title'>Support</h2>
+          <p class='about__offer__container__text'>Get help with specific issues and concerns from our experts</p>
+        </div>
+      </div>
+
+    </section>
+    
+    <!-- work section -->
+    <section class='work' id='work'>
+
+      <div class="design-cube"></div>
+      <div class="design-circle"></div>
+
+      <h1 class='work__title title'>OUR WORK</h1>
+
+      <div id="slider" class="slider moveUp">
+          <img src="img/laptop1.jpg" class='slider__slide' data-number='1' alt="portfolio"/>
+          <img src="img/cairn.jpg" class='slider__slide' data-number='2' alt="portfolio">
+          <img src="img/lamp.jpg" class='slider__slide' data-number='3' alt="portfolio">
+          <img src="img/leaves.jpg" class='slider__slide' data-number='4' alt="portfolio"/>
+          <img src="img/mounts.jpg" class='slider__slide' data-number='5' alt="portfolio">
+          <img src="img/orange.jpg" class='slider__slide' data-number='6' alt="portfolio">
+          <img src="img/party.jpg" class='slider__slide' data-number='7' alt="portfolio">
+          <img src="img/picture.jpg" class='slider__slide' data-number='8' alt="portfolio">
+      </div>
+
+    </section>
+    <!-- work section -->
+
+    <!-- tariffs section -->
+    <section class='tariffs' id='tariffs'>
+
+      <h3 class='tariffs__title title'>PRICING</h3>
+      <p class="tariffs__phrase">Choose a pricing plan that fits your needs.</p>
+
+      <div class="pricing__container">
+        <div class="pricing__container__tariffs moveRight">
+          <ul class="pricing__container__tariffs__list">
+            <li class="tariffs__list__header">Basic</li>
+            <li class="tariffs__list__item"><b>10GB</b> Storage</li>
+            <li class="tariffs__list__item"><b>10</b> Emails</li>
+            <li class="tariffs__list__item"><b>10</b> Domains</li>
+            <li class="tariffs__list__item"><b>Endless</b> Support</li>
+            <li class="tariffs__list__item __price">
+              <h2 class="tariffs__list__item__price">$10</h2>/
+              <span class="tariffs__list__item__period">mo</span>
+            </li>
+            <li class="tariffs__list__item">
+              <button class="button">Get Started</button>
+            </li>
+          </ul>
+        </div>
+        <div class="pricing__container__tariffs scope">
+          <ul class="pricing__container__tariffs__list">
+            <li class="tariffs__list__header __best">Pro</li>
+            <li class="tariffs__list__item"><b>25GB</b> Storage</li>
+            <li class="tariffs__list__item"><b>25</b> Emails</li>
+            <li class="tariffs__list__item"><b>25</b> Domains</li>
+            <li class="tariffs__list__item"><b>Endless</b> Support</li>
+            <li class="tariffs__list__item __price">
+              <h2 class="tariffs__list__item__price">$25</h2>/
+              <span class="tariffs__list__item__period">mo</span>
+            </li>
+            <li class="tariffs__list__item">
+              <button class="button">Get Started</button>
+            </li>
+          </ul>
+        </div>
+        <div class="pricing__container__tariffs moveLeft">
+          <ul class='pricing__container__tariffs__list'>
+            <li class="tariffs__list__header">Premium</li>
+            <li class="tariffs__list__item"><b>50GB</b> Storage</li>
+            <li class="tariffs__list__item"><b>50</b> Emails</li>
+            <li class="tariffs__list__item"><b>50</b> Domains</li>
+            <li class="tariffs__list__item"><b>Endless</b> Support</li>
+            <li class="tariffs__list__item __price">
+              <h2 class="tariffs__list__item__price">$50</h2>/
+              <span class="tariffs__list__item__period">mo</span>
+            </li>
+            <li class="tariffs__list__item">
+              <button class="button">Get Started</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+    <!-- tariffs section -->
+
+
+  </main>
+
+  <footer class='footer'>
+      <div class='contact-section' id='contact'>
+          <h1 class='contact-section__title title'>CONTACT</h1>
+          <p class='contact-section__phrase'>Lets get in touch.</p>
+          <form action="" class='contact-form'>
+            <input type="text" name='fullname' placeholder='Full Name' class='contact-form__input'>
+            <input type="email" name='email' placeholder='Email' class='contact-form__input'>
+            <input type="phone" name='phone' placeholder='Phone' class='contact-form__input'>
+            <button class='button contact-form__send-btn'>Send</button>
+          </form>
+        </div>
+
+
+        <ul class='footer__social'>
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+        </ul>
+        
+    <p class='footer__rights'>&#169 2018 All Rights Reserved</p>
+  </footer>
+  
+  <canvas id='canvas'></canvas>
+
+  <script src="js/scrollAnimation.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/canvas.js"></script>
+</body>
+</html>
